@@ -1,12 +1,12 @@
 .container {
-    width: 900px;
-    height: 100%;
-    margin: 40px auto;
-    border-radius: 25px;
-    border: 1px solid #000;
-  }
+  width: 900px;
+  height: 100%;
+  margin: 40px auto;
+  border-radius: 25px;
+  border: 1px solid #000;
+}
 .body {
-    background-image: url("images/istockphoto-1268649090-612x612.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("images/istockphoto-1268649090-612x612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
