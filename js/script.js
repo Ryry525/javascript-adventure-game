@@ -1,7 +1,19 @@
-console.log("scripit is loading")
+console.log("script is loading");
 
-let myText = {
+let firstStage = {
     id: 1,
-    story: "Ming's rank got lost in elo hell, please help him find his way out"
-    options: ["start playing adc", "start playing mid", "start playing jungle", "start playing top"]
+    story: "Juan got lost in the forest, please help juan find his way out now!",
+    options: ["start heading north", "start heading south", "find a path", "follow the river"]
+}
+
+let secondStage = {
+
+}
+
+let thirdSatege = {
+
+}
+
+let fourthStage = {
+
 }
