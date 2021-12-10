@@ -4,6 +4,8 @@
   margin: 40px auto;
   border-radius: 25px;
   border: 1px solid #000;
+  text-align: center;
+  padding: 50px;
 }
 .body {
   background-image: url("images/istockphoto-1268649090-612x612.jpg");
