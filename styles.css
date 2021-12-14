@@ -7,8 +7,24 @@
   text-align: center;
   padding: 50px;
 }
+.button { 
+  min-width: 250px;
+  height: 100px;
+  text-align: center;
+  cursor: pointer; 
+}
+.adventure-description {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.profile { 
+  border-radius: 50%;
+  border: 2px #000 solid; 
+}
 .body {
   background-image: url("images/istockphoto-1268649090-612x612.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: monospace;
 }

@@ -1,19 +1,27 @@
 console.log("script is loading");
 
-let firstStage = {
+let adventureDescriptionText = document.querySelector(".adventure-description");
+let optionButtons = document.getElementsByClassName("button");
+
+function updateAdventureText() {
+  adventureDescriptionText.innerText = textAdventure[0].text;
+}
+
+function updateOptions() {
+  let i = 0;
+  for (i; i < optionButtons.length; i++) {
+    console.log(optionButtons[i]);
+    optionButtons[i].innerText = textAdventure[0].options[i];
+  }
+}
+
+const textAdventure = [
+  {
     id: 1,
-    story: "Juan got lost in the forest, please help juan find his way out now!",
-    options: ["start heading north", "start heading south", "find a path", "follow the river"]
-}
+    text: "This is the story of ming who got lost in elo hell, he need your help to get out and reach diamond elo. Choose one of the options below",
+    options: ["Play adc", "Play jungle"],
+  },
+];
 
-let secondStage = {
-
-}
-
-let thirdSatege = {
-
-}
-
-let fourthStage = {
-
-}
+updateAdventureText();
+updateOptions();
