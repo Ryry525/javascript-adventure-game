@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Text adventure game</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text Adventure Game</title>
+  <link rel = "stylesheet" href = "styles.css">
+</head>
 
-  <body>
-    <!-- your content here... -->
-    <div class="container">
-      <img class="profile" src="images/Season_2019_-_Iron_3.png" />
-      <h1>JavaScript Adventure Game</h1>
-      <p>This is the adventure of Ming, who got lost in the elo hell</p>
-      <div id="options-buttons" class="buttons-grid">
-        <button class="button"></button>
-        <button class="button"></button>
-      </div>
+<body>
+  <!-- your content here... -->
+  <div class="container">
+    <img class="profile" src="images/Season_2019_-_Iron_3.png">
+    <h1>JavaScript Adventure Game</h1>
+    <p class="adventure-description">This is the adventure of Ming, who got lost in the elo hell</p>
+    <div id="option-buttons" class="buttons-grid">
+      <button class="button" id="first_btn" onclick="onNextOption(event)"></button>
+      <button class="button" id="second_btn" onclick="onPlayAgain(event)"></button>
     </div>
-    <script src="js/scripts.js"></script>
-  </body>
+  </div>
+  <script src="js/script.js"></script>
+</body>
 </html>

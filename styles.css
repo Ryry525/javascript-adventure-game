@@ -6,6 +6,7 @@
   border: 1px solid #000;
   text-align: center;
   padding: 50px;
+  background-color: #fff;
 }
 .button { 
   min-width: 250px;
@@ -22,8 +23,8 @@
   border-radius: 50%;
   border: 2px #000 solid; 
 }
-.body {
-  background-image: url("/images/istockphoto-1268649090-612x612.jpg");
+body {
+  background-image: url("images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: monospace;
