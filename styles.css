@@ -23,7 +23,7 @@
   border: 2px #000 solid; 
 }
 .body {
-  background-image: url("images/istockphoto-1268649090-612x612.jpg");
+  background-image: url("/images/istockphoto-1268649090-612x612.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: monospace;
