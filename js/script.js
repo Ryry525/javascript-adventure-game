@@ -3,7 +3,6 @@ console.log("script is loading");
 // select the container of the game description
 const descriptionText = document.querySelector(".adventure-description");
 const optionButtons = document.getElementsByClassName("button");
-const changeProfile = document.getElementsByClassName("profile");
 
 // Id node where the game starts
 let startIndex = 0;
@@ -29,7 +28,7 @@ function showAdventureOptions(textAdventureID) {
     descriptionText.innerHTML = newDescriptionText.message;
 
     //change the profile
-    document.getElementById("profile_pic").src="images/diamond.png";
+    document.getElementById("profile_pic").src = "images/diamond.png";
 
     document.getElementById("second_btn").innerHTML = "Play Again";
     return;
@@ -104,7 +103,6 @@ const textAdventure = [
       },
       {
         buttontext: "Uninstall the game",
-        alert: alert("Ming would never uninstall the game, pleas choose another option");
         message: console.log("Ming would never uninstall! ^_^"),
       },
     ],
@@ -143,9 +141,9 @@ const textAdventure = [
   },
   {
     id: 4,
-    message: "Thank you for helping Ming! He was able to reach diamond and get out of elo hell",
+    message:
+      "Thank you for helping Ming! He was able to reach diamond and get out of elo hell",
   },
 ];
-
 
 onPlay();
